@@ -1,0 +1,8 @@
+---
+applications:
+- name: a9s-examples-ruby-hanami
+  instances: 1
+  memory: 128M
+  host: a9s-examples-ruby-hanami
+  domain: aws.ie.a9sapp.eu
+  buildpack: http://github.com/cloudfoundry/ruby-buildpack.git
